@@ -1,0 +1,22 @@
+# Binaries and object files
+*.o
+*.out
+*.exe
+*.dSYM/
+*.log
+
+# Executables
+lab01
+lab02
+lab03
+test_student
+app
+temperature
+calculator
+buggy
+leaky
+
+# IDE configs
+.vscode/
+.idea/
+.DS_Store
