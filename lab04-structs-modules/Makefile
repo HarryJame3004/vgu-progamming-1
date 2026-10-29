@@ -2,6 +2,8 @@ CC = gcc
 CFLAGS = -Wall -Wextra -std=c99
 DEBUG_FLAGS = -g -DDEBUG
 
+.PHONY: all test debug valgrind app clean
+
 all: test
 
 test: test_student
